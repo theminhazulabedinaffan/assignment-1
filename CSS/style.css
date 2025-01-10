@@ -1,0 +1,86 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Open Sans';
+}
+
+/* Header styles */
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px 30px 100px;
+}
+
+/* Navbar styles */
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li .home {
+    font-size: 35px;
+    font-weight: bold;
+    color: #000000;
+}
+
+header nav ul li a button {
+    height: 45px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #FFFFFF;
+    color: #52b788;
+    border-radius: 10px;
+    border: 2px solid #52b788;
+}
+
+/* Banner styles */
+header .banner {
+    width: 90%;
+    margin: 0 auto;
+    padding: 40px;
+    background-color: #b7e4c7;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+header .banner-contents {
+    padding: 20px;
+}
+
+header .banner .banner-contents #banner-name {
+    font-size: 25px;
+    font-weight: bold;
+    color: #6c757d;
+    padding: 0 0 0 40px;
+}
+
+header .banner .banner-contents #banner-discription {
+    font-size: 55px;
+    font-weight: 600;
+    padding: 20px 90px 20px 40px;
+}
+
+header .banner-contents div button {
+    font-size: 16px;
+    background-color: #2d6a4f;
+    color: #FFFFFF;
+    font-weight: 500;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0 0 40px;
+    padding: 20px 30px 20px 30px;
+}
+
+header .banner-img img {
+    height: 400px;
+    width: 400px;
+    padding: 0 30px 0 0 ;
+}
