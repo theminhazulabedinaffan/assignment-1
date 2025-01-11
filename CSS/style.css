@@ -75,8 +75,13 @@ header .banner-contents div button {
     font-weight: 500;
     border-radius: 10px;
     border: none;
+    transition: 0.3s ease;
     margin: 10px 0 0 40px;
     padding: 20px 30px 20px 30px;
+}
+
+header .banner-contents div button:hover {
+    background-color: #52b788;
 }
 
 header .banner-img img {
