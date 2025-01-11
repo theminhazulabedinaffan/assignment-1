@@ -17,7 +17,7 @@ body {
 header nav ul {
     display: flex;
     justify-content: space-between;
-    padding: 30px 100px 30px 100px;
+    padding: 30px 185px 30px 185px;
 }
 
 /* Navbar styles */
@@ -44,7 +44,7 @@ header nav ul li a button {
 
 /* Banner styles */
 header .banner {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
     padding: 40px;
     background-color: #b7e4c7;
@@ -97,11 +97,11 @@ header .banner-img img {
 
 /* Main Content Section */
 main {
-    width: 90%;
+    width: 80%;
     margin: 0 auto;
 }
 
-main .country-pillars h1 {
+main .heading h1 {
     font-size: 40px;
     color: #000000;
     padding-top: 60px;
@@ -114,12 +114,12 @@ main .card-container {
 }
 
 main .card-container .card {
-    height: 320px;
-    width: 400px;
+    height: 350px;
+    width: 360px;
     background-color: #FFFFFF;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-    padding: 40px 40px;
+    padding: 30px 30px;
 }
 
 main .card-container .card h3 {
@@ -132,4 +132,140 @@ main .card-container .card h3 {
 main .card-container .card p {
     color: #495057;
     font-size: 16px;
+    margin-bottom: 20px;
 }
+
+main .future-goal #future-discription {
+    font-size: 18px;
+    color: #000000;
+    padding-bottom: 30px;
+}
+
+main .future-vision-cards-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Future vision card 1 styles*/
+main .future-vision-cards-container #future-vision-card-1 {
+    background-color: #ade8f4;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+main .future-vision-cards-container #future-vision-card-1 img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+
+main .future-vision-cards-container #future-vision-card-1 h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+main .future-vision-cards-container #future-vision-card-1 p {
+    font-size: 18px;
+}
+
+main .future-vision-cards-container #future-vision-card-1 button {
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #00b4d8;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+    margin-top: 50px;
+    padding: 10px 40px 10px 40px;
+}
+
+main .future-vision-cards-container #future-vision-card-1 button:hover {
+    background-color: #00a6fb;
+}
+
+/* Future vision card 2 styles */
+main .future-vision-cards-container #future-vision-card-2 {
+    background-color: #c7f9cc;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+main .future-vision-cards-container #future-vision-card-2 img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+
+main .future-vision-cards-container #future-vision-card-2 h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+main .future-vision-cards-container #future-vision-card-2 p {
+    font-size: 18px;
+}
+
+main .future-vision-cards-container #future-vision-card-2 button {
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #16db65;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+    margin-top: 70px;
+    padding: 10px 40px 10px 40px;
+}
+
+main .future-vision-cards-container #future-vision-card-2 button:hover {
+    background-color: #44cf6c;
+}
+
+/* Future vision card 3 styles */
+main .future-vision-cards-container #future-vision-card-3 {
+    background-color: #fae588;
+    height: 400px;
+    width: 500px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+main .future-vision-cards-container #future-vision-card-3 img {
+    width: 90px;
+    height: 90px;
+    padding-bottom: 20px;
+}
+
+main .future-vision-cards-container #future-vision-card-3 h3 {
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+main .future-vision-cards-container #future-vision-card-3 p {
+    font-size: 18px;
+}
+
+main .future-vision-cards-container #future-vision-card-3 button {
+    height: 50px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #ffb600;
+    color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    transition: 0.3s ease;
+    margin-top: 50px;
+    padding: 10px 40px 10px 40px;
+}
+
+main .future-vision-cards-container #future-vision-card-3 button:hover {
+    background-color: #ff9e00;
+}
+
