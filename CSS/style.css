@@ -1,6 +1,7 @@
 /* Google Font */
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
+/** Default styles **/
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     font-family: 'Open Sans';
 }
 
+/** Body styles **/
 body {
     background-color: #f8f9fa;
 }
@@ -45,14 +47,14 @@ header nav ul li a button {
 /* Banner styles */
 header .banner {
     width: 80%;
-    margin: 0 auto;
-    padding: 40px;
     background-color: #b7e4c7;
+    margin: 0 auto;
     border-radius: 20px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-top: 20px;
+    padding: 40px;
 }
 
 header .banner-contents {
@@ -73,10 +75,10 @@ header .banner .banner-contents #banner-discription {
 }
 
 header .banner-contents div button {
+    font-weight: 500;
     font-size: 16px;
     background-color: #2d6a4f;
     color: #FFFFFF;
-    font-weight: 500;
     border-radius: 10px;
     border: none;
     transition: 0.3s ease;
