@@ -441,5 +441,9 @@ main .donate .user-input div button {
     color: #FFFFFF;
     font-size: 20px;
     margin-top: 20px;
+    transition: 0.3s ease;
 }
 
+main .donate .user-input div button:hover {
+    background-color: #44cf6c;
+}
